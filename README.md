@@ -7,7 +7,10 @@ default threads = 4
 CLI Options 
 
 to run $ cargo run -- -j <threads> <ip>
-ip_sniffer -h //help
-ip_sniffer -j <ip> // how many threads 
-ip_sniffer <ip> // calling the tool on ip addrss with default num of threads 
+help
+`ip_sniffer -h`
+  how many threads 
+`ip_sniffer -j <ip>`
+calling the tool on ip addrss with default num of threads 
+`ip_sniffer <ip>` 
 
